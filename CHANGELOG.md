@@ -9,6 +9,14 @@ Types of changes
 - `Fixed` for any bug fixes.
 - `Security` in case of vulnerabilities.
 
+## 8.0.0+0 (2025-12-03)
+### Changed
+- AGP updated to use v8.13.1
+- `compileSdkVersion` updated to use v36
+- `minSdkVersion` updated to use v19
+- `compileOptions` updated to use `JavaVersion.VERSION_21`
+- Updated example project to use gradle wrapper v9.1.0
+
 ## 7.0.0+0 (2025-03-27)
 ### Changed
 - [Breaking Change] Changed callback functions to be set as functions instead of properties, see **"Migration instructions"** on the README.md.

@@ -9,7 +9,7 @@ Types of changes
 - `Fixed` for any bug fixes.
 - `Security` in case of vulnerabilities.
 
-## 8.0.0+0 (2025-12-03)
+## 8.0.0 (2025-12-03)
 ### Changed
 - AGP updated to use v8.13.1
 - `compileSdkVersion` updated to use v36
@@ -17,12 +17,12 @@ Types of changes
 - `compileOptions` updated to use `JavaVersion.VERSION_21`
 - Updated example project to use gradle wrapper v9.1.0
 
-## 7.0.0+0 (2025-03-27)
+## 7.0.0 (2025-03-27)
 ### Changed
 - [Breaking Change] Changed callback functions to be set as functions instead of properties, see **"Migration instructions"** on the README.md.
 - Scanner state handling improved to allow multiple instances. Usage remains the same, just make sure to call `disposeScanner()` when no longer need to use a scanner instance.
 
-## 6.0.0+0 (2025-02-13)
+## 6.0.0 (2025-02-13)
 ### Changed
 - Example project updated to adjust to latest flutter version.
 
